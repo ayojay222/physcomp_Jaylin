@@ -6,7 +6,7 @@ float circleSize, rectWidth, bgColor;
 
 void setup() {
   size(800, 600);  // Display window width & height
-  myPort = new Serial(this, "COM3", 9600);  // Adjust port name for your setup
+  myPort = new Serial(this, "COM3", 9600);  //  port name setup
 }
 
 void draw() {
